@@ -16,7 +16,7 @@
 
 .box {
     width: 400px;
-    height: 600px;
+    height: 500px;
     background: #fff;
     border-radius: 15px;
     }
@@ -25,6 +25,8 @@
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    display: flex;
-    justify-content: center;
+    display: block;
+    margin:auto;
+    transform: translateY(-30%);
+    border: 6px groove rgb(42, 42, 42);
 }
